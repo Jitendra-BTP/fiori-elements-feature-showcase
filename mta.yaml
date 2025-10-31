@@ -31,7 +31,7 @@ modules:
 
   - name: feature-showcase-app-deployer
     type: com.sap.application.content
-    path: gen
+    path: .
     requires:
       - name: feature-showcase-auth
       - name: srv-api
@@ -41,16 +41,16 @@ modules:
           config:
             HTML5Runtime_enabled: true
     build-parameters:
-      build-result: app/
+      build-result: resources/
       requires:
         - name: featureshowcaselistreportobjectpage
           artifacts:
             - listreport-objectpage.zip
-          target-path: app/
+          target-path: resources/
         - name: featureshowcaseworklist
           artifacts:
             - worklist.zip
-          target-path: app/
+          target-path: resources/
     parameters:
       config:
         HTML5Runtime_enabled: true
