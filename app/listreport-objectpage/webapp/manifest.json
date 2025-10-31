@@ -12,7 +12,7 @@
         "subTitle": "{{appSubTitle}}",
         "dataSources": {
             "mainService": {
-                "uri": "/srv1/",
+                "uri": "srv1/",
                 "type": "OData",
                 "settings": {
                     "odataVersion": "4.0"

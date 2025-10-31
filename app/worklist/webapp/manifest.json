@@ -11,7 +11,7 @@
         "description": "{{appDescription}}",
         "dataSources": {
             "mainService": {
-                "uri": "/worklist-srv/",
+                "uri": "worklist-srv/",
                 "type": "OData",
                 "settings": {
                     "odataVersion": "4.0"
