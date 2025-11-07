@@ -12,9 +12,9 @@ target/
 .gen/
 
 # MTA
-*_mta_build_tmp
-*.mtar
-mta_archives/
+# *_mta_build_tmp
+# *.mtar
+# mta_archives/
 
 # Other
 .DS_Store
@@ -29,3 +29,5 @@ mta_archives/
 .idea
 @cds-models
 dist/
+
+# Deployed Successfully
